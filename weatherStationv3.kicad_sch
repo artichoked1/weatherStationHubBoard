@@ -419,7 +419,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x06_Pin"
+		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -435,8 +435,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x06_Pin"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x05_Pin"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -461,7 +461,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -496,7 +496,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_Pin_1_1"
+			(symbol "Conn_01x05_Pin_1_1"
 				(rectangle
 					(start 0.8636 5.207)
 					(end 0 4.953)
@@ -544,17 +544,6 @@
 				(rectangle
 					(start 0.8636 -4.953)
 					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -614,18 +603,6 @@
 				(polyline
 					(pts
 						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -718,24 +695,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8428,7 +8387,7 @@
 		(uuid "febc73c5-d091-4892-8bd7-54ba07f6cff7")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
+		(lib_id "Connector:Conn_01x05_Pin")
 		(at 44.45 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8438,7 +8397,7 @@
 		(fields_autoplaced yes)
 		(uuid "024fe7b1-99b1-4db5-a13a-a34762bb90cf")
 		(property "Reference" "J5"
-			(at 45.72 161.2899 0)
+			(at 45.72 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,7 +8406,7 @@
 			)
 		)
 		(property "Value" "PORT3"
-			(at 45.72 163.8299 0)
+			(at 45.72 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +8414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 44.45 163.83 0)
 			(effects
 				(font
@@ -8473,7 +8432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
+		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 44.45 163.83 0)
 			(effects
 				(font
@@ -8487,9 +8446,6 @@
 		)
 		(pin "4"
 			(uuid "685c934b-e2c6-4908-b72b-1d24e10cd378")
-		)
-		(pin "6"
-			(uuid "3a9402d3-c3c9-4446-8f07-69ede6890463")
 		)
 		(pin "3"
 			(uuid "e73564e2-71b6-4903-b060-210bf90ace29")
@@ -13063,7 +13019,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
+		(lib_id "Connector:Conn_01x05_Pin")
 		(at 44.45 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13073,7 +13029,7 @@
 		(fields_autoplaced yes)
 		(uuid "a949e7ac-707b-4b84-82e3-ed20aa3db09f")
 		(property "Reference" "J3"
-			(at 45.72 111.7599 0)
+			(at 45.72 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13082,7 +13038,7 @@
 			)
 		)
 		(property "Value" "PORT1"
-			(at 45.72 114.2999 0)
+			(at 45.72 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13090,7 +13046,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 44.45 114.3 0)
 			(effects
 				(font
@@ -13108,7 +13064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
+		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 44.45 114.3 0)
 			(effects
 				(font
@@ -13122,9 +13078,6 @@
 		)
 		(pin "4"
 			(uuid "2be3332e-140e-4f76-a3e5-43f2878a9d35")
-		)
-		(pin "6"
-			(uuid "1aaac0a5-8e55-4a4d-9d26-9ccb105dd487")
 		)
 		(pin "3"
 			(uuid "6ccc5ffa-48b1-4007-9064-6e66a3e54ea1")
@@ -14364,7 +14317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
+		(lib_id "Connector:Conn_01x05_Pin")
 		(at 44.45 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14374,7 +14327,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec507978-7b44-423f-917f-4e2d500491b6")
 		(property "Reference" "J4"
-			(at 45.72 137.1599 0)
+			(at 45.72 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14383,7 +14336,7 @@
 			)
 		)
 		(property "Value" "PORT2"
-			(at 45.72 139.6999 0)
+			(at 45.72 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14391,7 +14344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 44.45 139.7 0)
 			(effects
 				(font
@@ -14409,7 +14362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
+		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 44.45 139.7 0)
 			(effects
 				(font
@@ -14423,9 +14376,6 @@
 		)
 		(pin "4"
 			(uuid "36753ba2-798e-4b0a-9c6c-213e33208264")
-		)
-		(pin "6"
-			(uuid "0e98cd69-50b3-4873-8eba-3f01b2f27a1c")
 		)
 		(pin "3"
 			(uuid "cc913608-9353-4738-b201-d2c4a1d7968a")
@@ -14623,7 +14573,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
+		(lib_id "Connector:Conn_01x05_Pin")
 		(at 44.45 186.69 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14633,7 +14583,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3efd036-ffd7-4935-8ecd-076bdb5cbc4e")
 		(property "Reference" "J6"
-			(at 45.72 184.1499 0)
+			(at 45.72 185.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14642,7 +14592,7 @@
 			)
 		)
 		(property "Value" "PORT4"
-			(at 45.72 186.6899 0)
+			(at 45.72 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14650,7 +14600,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 44.45 186.69 0)
 			(effects
 				(font
@@ -14668,7 +14618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
+		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 44.45 186.69 0)
 			(effects
 				(font
@@ -14682,9 +14632,6 @@
 		)
 		(pin "4"
 			(uuid "a84d5a86-a161-47b5-b518-0f59c3af0485")
-		)
-		(pin "6"
-			(uuid "a2832cb4-f72e-46ec-9812-a1dccbccfdc7")
 		)
 		(pin "3"
 			(uuid "b5238e1f-1304-4031-afc8-01ccfab12024")
