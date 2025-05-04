@@ -487,7 +487,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "weatherStationv3.kicad_pro",
+    "filename": "ws1-basestation-pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -523,7 +523,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

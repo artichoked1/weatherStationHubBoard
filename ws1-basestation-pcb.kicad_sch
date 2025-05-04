@@ -5291,12 +5291,6 @@
 		(uuid "02063137-1266-4cd0-8f2c-b786d2cf049c")
 	)
 	(junction
-		(at 265.43 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "124189b7-f931-4dc6-adb2-4d06c60c02d8")
-	)
-	(junction
 		(at 140.97 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5339,12 +5333,6 @@
 		(uuid "3c2949bf-7d76-45e2-acbd-266ef6ec7764")
 	)
 	(junction
-		(at 260.35 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3dd68ab6-d25b-460c-bfe3-fb6b135a32f1")
-	)
-	(junction
 		(at 30.48 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5367,12 +5355,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63011414-072f-4f41-80c0-bed4a5fe51a1")
-	)
-	(junction
-		(at 265.43 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63d8fdd7-a256-42fe-8f67-99fbee785c4c")
 	)
 	(junction
 		(at 30.48 27.94)
@@ -5778,7 +5760,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 125.73) (xy 267.97 125.73)
+			(xy 256.54 125.73) (xy 261.62 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6418,16 +6400,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 149.86) (xy 265.43 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "664e23a4-ac17-4cf6-9f8f-9f9800301c6a")
-	)
-	(wire
-		(pts
 			(xy 196.85 38.1) (xy 196.85 40.64)
 		)
 		(stroke
@@ -6495,16 +6467,6 @@
 			(type default)
 		)
 		(uuid "6d5a2950-01f6-4c76-875a-ac49d0ef631e")
-	)
-	(wire
-		(pts
-			(xy 265.43 128.27) (xy 265.43 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ea66d63-82a1-44f1-a622-e09ea735bfc5")
 	)
 	(wire
 		(pts
@@ -6858,16 +6820,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 149.86) (xy 265.43 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "977be2aa-3562-408c-a8bd-9de83318af10")
-	)
-	(wire
-		(pts
 			(xy 44.45 78.74) (xy 49.53 78.74)
 		)
 		(stroke
@@ -6958,16 +6910,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 125.73) (xy 260.35 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a67c88c9-f722-4657-b1b8-183d0ba0f750")
-	)
-	(wire
-		(pts
 			(xy 30.48 36.83) (xy 30.48 38.1)
 		)
 		(stroke
@@ -7025,16 +6967,6 @@
 			(type default)
 		)
 		(uuid "ad80a506-726a-4518-8e3e-079d4bd72d44")
-	)
-	(wire
-		(pts
-			(xy 238.76 128.27) (xy 265.43 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adf4dd03-ede8-4d55-97c2-0fc8ae350b4c")
 	)
 	(wire
 		(pts
@@ -7268,16 +7200,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 142.24) (xy 260.35 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8106cbe-a651-4947-85d8-60e8ecab4291")
-	)
-	(wire
-		(pts
 			(xy 71.12 38.1) (xy 87.63 38.1)
 		)
 		(stroke
@@ -7385,16 +7307,6 @@
 			(type default)
 		)
 		(uuid "d3a7252e-67cf-427d-881e-610d012f5fa5")
-	)
-	(wire
-		(pts
-			(xy 256.54 125.73) (xy 260.35 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4c3d30c-dd57-4212-a19b-65ccf034b50f")
 	)
 	(wire
 		(pts
@@ -7588,16 +7500,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 149.86) (xy 265.43 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9a040bf-e86b-472f-bf37-a2afb6cbc869")
-	)
-	(wire
-		(pts
 			(xy 87.63 38.1) (xy 105.41 38.1)
 		)
 		(stroke
@@ -7778,7 +7680,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 128.27) (xy 267.97 128.27)
+			(xy 238.76 128.27) (xy 261.62 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8027,7 +7929,7 @@
 		(uuid "74d7a9ae-d315-4eef-b3ed-9b007ea6ea2b")
 	)
 	(label "RS485_A"
-		(at 267.97 125.73 0)
+		(at 261.62 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8287,7 +8189,7 @@
 		(uuid "de1ad16d-6580-4a5c-8818-c0a77f2395bb")
 	)
 	(label "RS485_B"
-		(at 267.97 128.27 0)
+		(at 261.62 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8723,76 +8625,6 @@
 			(project "weatherStationv2"
 				(path "/6526af79-bfb0-40c0-af44-29207e0affbe"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ5.0A")
-		(at 260.35 138.43 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "123aa799-30b6-41eb-b0c6-3286620eabe9")
-		(property "Reference" "D4"
-			(at 262.89 137.1599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMAJ5.0A"
-			(at 262.89 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 255.27 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 260.35 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-			(at 260.35 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "02d5305d-3312-483b-a00b-2ae7f72c942d")
-		)
-		(pin "1"
-			(uuid "1d03bbb4-edd8-4496-9c34-44c14ba81f0d")
-		)
-		(instances
-			(project ""
-				(path "/6526af79-bfb0-40c0-af44-29207e0affbe"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9684,72 +9516,6 @@
 			(project "weatherStationv3"
 				(path "/6526af79-bfb0-40c0-af44-29207e0affbe"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 265.43 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35603e9d-7936-4ac8-a2da-741ff6b9c050")
-		(property "Reference" "#PWR044"
-			(at 265.43 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 265.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95c11b1d-4848-4454-98e6-b44eff02dab7")
-		)
-		(instances
-			(project ""
-				(path "/6526af79-bfb0-40c0-af44-29207e0affbe"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -14786,76 +14552,6 @@
 			(project ""
 				(path "/6526af79-bfb0-40c0-af44-29207e0affbe"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ5.0A")
-		(at 265.43 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f65027d2-6259-471c-ad32-9af016102434")
-		(property "Reference" "D5"
-			(at 267.97 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMAJ5.0A"
-			(at 267.97 146.0499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 260.35 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 265.43 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-			(at 265.43 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c2e8b065-de8f-4d31-b0e3-fd95b3c99868")
-		)
-		(pin "1"
-			(uuid "91088d54-ca91-4cd4-9546-d342eb3debbb")
-		)
-		(instances
-			(project "weatherStationv3"
-				(path "/6526af79-bfb0-40c0-af44-29207e0affbe"
-					(reference "D5")
 					(unit 1)
 				)
 			)
